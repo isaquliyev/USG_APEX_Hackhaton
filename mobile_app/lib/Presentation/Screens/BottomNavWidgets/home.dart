@@ -6,21 +6,29 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListView.separated(itemBuilder: (context, index) {
-      return Container(
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          children: [
-            Column(
-              children: [
-                Text("Name of Illness"),
-                Text("#1515"),
-                SizedBox(height: 20,),
-                Text("Mualice basladi"),
-                Text("Mualice Bitdi"),
-              ],
-            ),
-            Image.asset('images/ali_hasanli.png', height: 100, width: 100,)
-          ],
+      return GestureDetector(
+        onTap: () {
+          Navigator.pushNamed(context, '/IllnessDetail');
+        },
+        child: Container(
+          padding: EdgeInsets.symmetric(horizontal: 10),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Column(
+                mainAxisAlignment: MainAxisAlignment.start,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text("Name of Illness", style: Theme.of(context).textTheme.displayMedium,),
+                  Text("#1515", style: Theme.of(context).textTheme.displayMedium,),
+                  SizedBox(height: 20,),
+                  Text("Mualice basladi", style: Theme.of(context).textTheme.displayMedium,),
+                  Text("Mualice Bitdi", style: Theme.of(context).textTheme.displayMedium,),
+                ],
+              ),
+              Image.asset('images/ali_hasanli.png', height: 100, width: 100,)
+            ],
+          ),
         ),
       );
     },

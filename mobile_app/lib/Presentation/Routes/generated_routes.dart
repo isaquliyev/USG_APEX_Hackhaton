@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mobile_app/Bussiness%20Logic/LandingPage%20Bloc/landing_page_bloc.dart';
+import 'package:mobile_app/Presentation/Screens/illness_detail_page.dart';
 import 'package:mobile_app/Presentation/Screens/landing_page.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -15,6 +16,11 @@ class RouteGenerator {
             value: landingPageBloc,
             child: const LandingPage(),
           ),
+        );
+
+      case '/IllnessDetail':
+        return MaterialPageRoute(
+          builder: (_) => IllnessDetailPage()
         );
 
       default:

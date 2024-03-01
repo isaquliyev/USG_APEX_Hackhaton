@@ -18,10 +18,7 @@ class ProfilePage extends StatelessWidget {
             SizedBox(height: 20),
             Text(
               'Ali Hasanli',
-              style: TextStyle(
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
-              ),
+              style: Theme.of(context).textTheme.displayLarge
             ),
             SizedBox(height: 20),
             TextField(
