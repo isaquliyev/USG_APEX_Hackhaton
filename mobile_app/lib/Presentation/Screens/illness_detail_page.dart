@@ -201,7 +201,7 @@ class _IllnessDetailPageState extends State<IllnessDetailPage> {
                   ),
                 )
                     : Container(
-                  height: 800,
+                  height: 600,
                   width: MediaQuery.of(context).size.width,
                   child: ListView.builder(itemBuilder: (context, index) {
                     return Row(

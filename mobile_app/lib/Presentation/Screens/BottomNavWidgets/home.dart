@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
                   Text("Mualice Bitdi", style: Theme.of(context).textTheme.displayMedium,),
                 ],
               ),
-              Image.asset('images/ali_hasanli.png', height: 100, width: 100,)
+              Image.asset('images/ali_hasanli.jpg', height: 100, width: 100,)
             ],
           ),
         ),

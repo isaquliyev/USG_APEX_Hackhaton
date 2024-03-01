@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mobile_app/Bussiness%20Logic/LandingPage%20Bloc/landing_page_bloc.dart';
 import 'package:mobile_app/Presentation/Screens/BottomNavWidgets/home.dart';
 import 'package:mobile_app/Presentation/Screens/BottomNavWidgets/profile.dart';
+import 'package:mobile_app/Presentation/Screens/BottomNavWidgets/suggest.dart';
 
 List<BottomNavigationBarItem> bottomNavItems = const [
   BottomNavigationBarItem(
@@ -14,7 +15,14 @@ List<BottomNavigationBarItem> bottomNavItems = const [
   ),
   BottomNavigationBarItem(
     icon: Icon(
-      Icons.person,
+      Icons.thumb_up,
+      color: Colors.blue,
+    ),
+    label: "Suggest",
+  ),
+  BottomNavigationBarItem(
+    icon: Icon(
+      Icons.settings_suggest,
       color: Colors.blue,
     ),
     label: "Profile",
@@ -23,6 +31,7 @@ List<BottomNavigationBarItem> bottomNavItems = const [
 
 const List<Widget> bottomNavScreen = [
   HomePage(),
+  SuggestPage(),
   ProfilePage(),
 ];
 
