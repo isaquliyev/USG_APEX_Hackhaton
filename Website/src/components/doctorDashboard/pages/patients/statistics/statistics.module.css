@@ -29,4 +29,6 @@
     border-radius: 50%;
     display: flex;
     margin: auto;
+    object-fit: cover;
+    background: #fff
 }
