@@ -1,0 +1,123 @@
+[
+    {
+      "ncdCode": "001",
+      "name": "Medicine A",
+      "description": "This is a medicine used to treat headaches.",
+      "ingredients": [
+        {
+          "name": "Ingredient 1",
+          "quantity": "100 mg"
+        }
+      ]
+    },
+    {
+      "ncdCode": "002",
+      "name": "Medicine B",
+      "description": "This medicine is used to treat fever.",
+      "ingredients": [
+        {
+          "name": "Ingredient 3",
+          "quantity": "250 mg"
+        }
+      ]
+    },
+    {
+      "ncdCode": "003",
+      "name": "Medicine C",
+      "description": "This is a medicine used to treat cough.",
+      "ingredients": [
+        {
+          "name": "Ingredient 5",
+          "quantity": "50 mg"
+        }
+      ]
+    },
+    {
+      "ncdCode": "004",
+      "name": "Medicine D",
+      "description": "This medicine is used to treat cold.",
+      "ingredients": [
+        {
+          "name": "Ingredient 7",
+          "quantity": "100 mg"
+        }
+      ]
+    },
+    {
+      "ncdCode": "005",
+      "name": "Medicine E",
+      "description": "This is a medicine used to treat flu.",
+      "ingredients": [
+        {
+          "name": "Ingredient 9",
+          "quantity": "250 mg"
+        }
+      ]
+    },
+    {
+      "ncdCode": "006",
+      "name": "Medicine F",
+      "description": "This medicine is used to treat allergies.",
+      "ingredients": [
+        {
+          "name": "Ingredient 11",
+          "quantity": "50 mg"
+        }
+      ]
+    },
+    {
+      "ncdCode": "007",
+      "name": "Medicine G",
+      "description": "This is a medicine used to treat asthma.",
+      "ingredients": [
+        {
+          "name": "Ingredient 13",
+          "quantity": "100 mg"
+        }
+      ]
+    },
+    {
+      "ncdCode": "008",
+      "name": "Medicine H",
+      "description": "This medicine is used to treat diabetes.",
+      "ingredients": [
+        {
+          "name": "Ingredient 15",
+          "quantity": "250 mg"
+        }
+      ]
+    },
+    {
+      "ncdCode": "009",
+      "name": "Medicine I",
+      "description": "This is a medicine used to treat high blood pressure.",
+      "ingredients": [
+      {
+        "name": "Ingredient 17",
+        "quantity": "50 mg"
+      }
+    ]
+  },
+  {
+    "ncdCode": "010",
+    "name": "Medicine J",
+    "description": "This medicine is used to treat arthritis.",
+    "ingredients": [
+      {
+        "name": "Ingredient 19",
+        "quantity": "100 mg"
+      }
+    ]
+  },
+  {
+    "ncdCode": "011",
+    "name": "Medicine J",
+    "description": "This medicine is used to treat arthritis.",
+    "ingredients": [
+      {
+        "name": "Ingredient 19",
+        "quantity": "100 mg"
+      }
+    ]
+  }
+]

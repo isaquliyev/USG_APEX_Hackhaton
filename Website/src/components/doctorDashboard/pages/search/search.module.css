@@ -1,0 +1,48 @@
+.container {
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.title {
+    font-size: 28px;
+    color: #233859;
+}
+
+.search_div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon {
+    color: #4d4d4d;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.search_div > div {
+    position: relative;
+}
+
+.search_div input {
+    border: 0;
+    color: #000;
+    font-size: 16px;
+    background-color: #d2d7f1;
+    padding: 10px 10px 10px 50px;
+    border-radius: 5px;
+}
+
+.search_div > div > svg {
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}

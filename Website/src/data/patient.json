@@ -1,0 +1,58 @@
+[
+    {
+      "name": "M.J. Mical Harrish",
+      "address": "9/c Karapotti Road.",
+      "phone": "(+03) 987 555 69",
+      "syndrome": "Pulmunary Bronchitis",
+      "date": "09 Dec 2020 @ 12:30 PM",
+      "patient-img": "../../public/assets/person-sick-1.jpg"
+    },
+    {
+      "name": "Sanath Deo",
+      "address": "9/c Karapotti Road.",
+      "phone": "(+03) 987 345 69",
+      "syndrome": "Breating Problem",
+      "date": "09 Dec 2020 @ 01:00 PM",
+      "patient-img": "../../public/assets/person-sick-2.jpeg"
+    },
+    {
+      "name": "Loeara Phanj",
+      "address": "11/h South State.",
+      "phone": "(+02) 987 345 69",
+      "syndrome": "Common cold",
+      "date": "09 Dec 2020 @ 01:30 PM",
+      "patient-img": "../../public/assets/person-sick-3.jpeg"
+    },
+    {
+      "name": "Komola Haris",
+      "address": "11/12 lake rode.",
+      "phone": "(+02) 987 345 69",
+      "syndrome": "Pulmunary Bronchitis",
+      "date": "09 Dec 2020 @ 02:30 PM",
+      "patient-img": "../../public/assets/person-sick-4.jpeg"
+    },
+    {
+      "name": "Komola Haris",
+      "address": "11/12 lake rode.",
+      "phone": "(+02)111 345 71",
+      "syndrome": "Breating Problem",
+      "date": "09 Dec 2020 @ 02:30 PM",
+      "patient-img": "../../public/assets/person-sick-5.jpeg"
+    },
+    {
+      "name": "Sanath Deo",
+      "address": "9/c Karapotti Road.",
+      "phone": "(+03) 987 345 69",
+      "syndrome": "Pulmunary Bronchitis",
+      "date": "09 Dec 2020 @ 01:00 PM",
+      "patient-img": "../../public/assets/person-sick-6.jpeg"
+    },
+    {
+      "name": "Loeara Phanj",
+      "address": "11/h South State.",
+      "phone": "(+02) 987 345 69",
+      "syndrome": "Breating Problem",
+      "date": "09 Dec 2020 @ 01:30 PM",
+      "patient-img": "../../public/assets/person-sick-7.jpeg"
+    }
+  ]

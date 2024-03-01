@@ -1,0 +1,83 @@
+[
+    {
+      "name": "Acute Bronchitis",
+      "ICDCode": "J20",
+      "description": "Acute bronchitis is an inflammation of the bronchial tubes, which are the airways that carry air from the trachea to the lungs. It is usually caused by a viral infection and lasts for a short period of time. Symptoms include cough, phlegm production, and sometimes fever and chest discomfort."
+    },
+    {
+      "name": "Asthma",
+      "ICDCode": "J45",
+      "description": "Asthma is a chronic lung disease that causes inflammation and narrowing of the airways. This makes it difficult for air to move in and out of the lungs, causing symptoms such as wheezing, coughing, shortness of breath, and chest tightness. Asthma can be triggered by various factors, including allergens, respiratory infections, and exercise."
+    },
+    {
+      "name": "Chronic Obstructive Pulmonary Disease (COPD)",
+      "ICDCode": "J44",
+      "description": "COPD is a chronic lung disease that causes difficulty breathing and shortness of breath. It includes conditions such as chronic bronchitis and emphysema. COPD is usually caused by smoking and is characterized by progressive damage to the airways and lung tissue. Symptoms include cough, phlegm production, and shortness of breath."
+    },
+    {
+      "name": "Coronary Artery Disease (CAD)",
+      "ICDCode": "I25",
+      "description": "CAD is a condition in which the coronary arteries, which supply blood to the heart muscle, become narrowed or blocked due to the buildup of fat, cholesterol, and other substances. This can lead to chest pain, shortness of breath, and heart attack. CAD is usually caused by lifestyle factors such as smoking, high blood pressure, high cholesterol, and obesity."
+    },
+    {
+      "name": "Congenital Heart Defects",
+      "ICDCode": "Q20-Q28",
+      "description": "Congenital heart defects are structural abnormalities of the heart that are present at birth. They can affect the heart's chambers, valves, or blood vessels and can cause various symptoms depending on the severity and location of the defect. Treatment may include medication, surgery, or other interventions."
+    },
+    {
+      "name": "Diabetes Mellitus",
+      "ICDCode": "E10-E14",
+      "description": "Diabetes mellitus is a metabolic disorder that causes high blood sugar levels due to the body's inability to produce or use insulin effectively. There are two main types of diabetes: type 1 and type 2. Type 1 diabetes is an autoimmune disorder that destroys the insulin-producing cells in the pancreas, while type 2 diabetes is a lifestyle-related condition that can be managed with diet, exercise, and medication. Symptoms include increased thirst, frequent urination, and fatigue."
+    },
+    {
+      "name": "Epilepsy",
+      "ICDCode": "G40",
+      "description": "Epilepsy is a neurological disorder that causes recurrent seizures due to abnormal electrical activity in the brain. Seizures can vary in severity and may cause convulsions, loss of consciousness, or changes in behavior. Epilepsy can be caused by various factors, including genetics, brain injury, and infection. Treatment may include medication, surgery, or other interventions."
+    },
+    {
+      "name": "Hypertension",
+      "ICDCode": "I10",
+      "description": "Hypertension, also known as high blood pressure, is a condition in which the force of blood against the walls of the arteries is consistently too high. This can lead to damage to the heart, brain, and other organs. Hypertension is usually caused by lifestyle factors such as smoking, high salt intake, and lack of exercise. Symptoms may include headache, dizziness, and shortness of breath."
+    },
+    {
+      "name": "Influenza",
+      "ICDCode": "J11",
+      "description": "Influenza, also known as the flu, is a viral infection that affects the respiratory tract. It is usually caused by the influenza A or B virus and is highly contagious. Symptoms include fever, chills, body aches, and respiratory symptoms such as cough and congestion. The flu can be prevented with vaccination."
+    },
+    {
+      "name": "Migraine",
+      "ICDCode": "G43",
+      "description": "Migraine is a neurological disorder that causes recurrent headaches, often accompanied by other symptoms such as nausea, vomiting, and sensitivity to light and sound. Migraines can last for hours to days and can be triggered by various factors, including stress, hormonal changes, and certain foods. Treatment may include medication, lifestyle changes, and behavioral therapies."
+    },
+    {
+      "name": "Multiple Sclerosis (MS)",
+      "ICDCode": "G35",
+      "description": "MS is a neurological disorder that affects the central nervous system, including the brain and spinal cord. It is caused by the immune system attacking the protective covering of nerve fibers, leading to various symptoms such as muscle weakness, numbness, and vision problems. MS is a chronic and progressive condition, and treatment may include medication, physical therapy, and rehabilitation."
+    },
+    {
+      "name": "Osteoarthritis",
+      "ICDCode": "M15-M19",
+      "description": "Osteoarthritis is a degenerative joint disease that causes pain, stiffness, and loss of mobility. It is usually caused by wear and tear of the cartilage that cushions the joints. Osteoarthritis can affect any joint in the body, but it is most common in the hands, hips, and knees. Treatment may include medication, physical therapy, and surgery."
+    },
+    {
+      "name": "Pneumonia",
+      "ICDCode": "J12-J18",
+      "description": "Pneumonia is an infection of the lungs that causes inflammation and fluid buildup in the air sacs. It can be caused by various bacteria, viruses, or fungi. Symptoms include cough, chest pain, and difficulty breathing. Pneumonia can be treated with antibiotics, antiviral medication, or other interventions depending on the cause."
+    },
+    {
+      "name": "Rheumatoid Arthritis (RA)",
+      "ICDCode": "M05-M09",
+      "description": "RA is an autoimmune disorder that causes inflammation and damage to the joints, leading to pain, stiffness, and loss of mobility. It can also affect other organs such as the lungs, heart, and eyes. RA is a chronic and progressive condition, and treatment may include medication, physical therapy, and surgery."
+    },
+    {
+      "name": "Sepsis",
+      "ICDCode": "A40-A41",
+      "description": "Sepsis is a life-threatening condition that occurs when the body's response to infection causes widespread inflammation and organ damage. It can be caused by various bacteria, viruses, or fungi. Symptoms include fever, rapid heart rate, and difficulty breathing. Sepsis requires immediate medical attention and can be treated with antibiotics, intravenous fluids, and other interventions."
+    },
+    {
+      "name": "Stroke",
+      "ICDCode": "I60-I69",
+      "description": "A stroke occurs when the blood supply to a part of the brain is interrupted or reduced, causing brain cells to die. This can lead to various symptoms such as paralysis, speech difficulties, and memory loss. Strokes can be caused by a blood clot (ischemic stroke) or bleeding in the brain (hemorrhagic stroke). Treatment may include medication, surgery, or other interventions depending on the type and severity of the stroke."
+    }
+
+]
