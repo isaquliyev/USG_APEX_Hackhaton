@@ -1,5 +1,4 @@
-import React from 'react';
-import style from './diseases.module.css';
+import style from './../patients/patients.module.css'
 import data from '../../../../data/disease.json'
 
 const Diseases = () => {

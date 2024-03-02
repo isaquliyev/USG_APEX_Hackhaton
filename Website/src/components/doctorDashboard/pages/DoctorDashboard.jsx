@@ -20,7 +20,7 @@ const DoctorDashboard = () => {
           {
               router === 'patients' ? <Patients /> : 
               router === 'medicines' ? <Medicines /> : 
-              router === 'diseases' ? <Diseases /> : ''
+              router === 'diseases' ? <Diseases /> : <Patients />
           }
         </div>
       </div>
