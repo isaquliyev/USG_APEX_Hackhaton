@@ -5,6 +5,8 @@ import 'package:dotted_border/dotted_border.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
+import 'package:mobile_app/Data/Diagnos.dart';
+import 'package:percent_indicator/percent_indicator.dart';
 
 
 class SuggestPage extends StatefulWidget {
@@ -40,7 +42,7 @@ class _SuggestPageState extends State<SuggestPage> with SingleTickerProviderStat
   void initState() {
     loadingController = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 10),
+      duration: const Duration(seconds: 5),
     )..addListener(() { setState(() {}); });
 
     super.initState();
@@ -49,7 +51,7 @@ class _SuggestPageState extends State<SuggestPage> with SingleTickerProviderStat
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: SingleChildScrollView(
+      body: !loadingController.isCompleted? SingleChildScrollView(
         child: Column(
           children: <Widget>[
             SizedBox(height: 100,),
@@ -158,6 +160,40 @@ class _SuggestPageState extends State<SuggestPage> with SingleTickerProviderStat
                 ))
                 : Container(),
             SizedBox(height: 150,),
+          ],
+        ),
+      ) : diagnosis.length == 1 ? Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const Text("Your Expected Insurance:", style: TextStyle(fontSize: 24),),
+            SizedBox(height: 40,),
+            CircularPercentIndicator(
+              radius: 100,
+              percent: 1,
+              animation: true,
+              animationDuration: 2500,
+              lineWidth: 12,
+              center: Text("7400 AZN", style: TextStyle(fontSize: 24),),
+              progressColor: Colors.green,
+              backgroundColor: Colors.grey,
+            ),
+            Padding(
+              padding: const EdgeInsets.all(40),
+              child: Text("Don't forget that this is just estimated Insurance fee.", textAlign: TextAlign.center, style: TextStyle(fontSize: 24),),
+            ),
+          ],
+        ),
+      ) : Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Image.asset("images/warning.jpg"),
+            SizedBox(height: 20,),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
+              child: Text("You are not relevant for Life Insurance", textAlign: TextAlign.center, style: TextStyle(fontSize: 24),),
+            ),
           ],
         ),
       ),

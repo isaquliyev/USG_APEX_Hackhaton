@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mobile_app/Data/Diagnos.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -19,20 +20,32 @@ class HomePage extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text("Name of Illness", style: Theme.of(context).textTheme.displayMedium,),
-                  Text("#1515", style: Theme.of(context).textTheme.displayMedium,),
+                  Container(
+                    padding: EdgeInsets.all(8),
+                    child: Text(diagnosis[index].organName, style: TextStyle(color: Colors.white),),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(16),
+                      color: diagnosis[index].organColor,
+                    ),
+                  ),
+                  Text(diagnosis[index].illness, style: Theme.of(context).textTheme.displayMedium,),
+                  Text(diagnosis[index].illnessId, style: Theme.of(context).textTheme.displayMedium,),
                   SizedBox(height: 20,),
-                  Text("Mualice basladi", style: Theme.of(context).textTheme.displayMedium,),
-                  Text("Mualice Bitdi", style: Theme.of(context).textTheme.displayMedium,),
+                  Text("19.02.2024", style: Theme.of(context).textTheme.displayMedium,),
                 ],
               ),
-              Image.asset('images/ali_hasanli.jpg', height: 100, width: 100,)
+              Column(
+                children: [
+                  Image.asset(diagnosis[index].imagePath, height: 100, width: 120, fit: BoxFit.fill,),
+                  Text(diagnosis[index].doctorName)
+                ],
+              )
             ],
           ),
         ),
       );
     },
-      itemCount: 5,
+      itemCount: diagnosis.length,
       scrollDirection: Axis.vertical,
       separatorBuilder: (BuildContext context, int index) {
         return const Divider();
