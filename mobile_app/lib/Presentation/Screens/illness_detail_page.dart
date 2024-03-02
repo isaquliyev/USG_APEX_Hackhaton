@@ -59,7 +59,7 @@ class _IllnessDetailPageState extends State<IllnessDetailPage> {
               //crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(
-                  "Cholera",
+                  "Heart attack",
                   style: Theme
                       .of(context)
                       .textTheme
