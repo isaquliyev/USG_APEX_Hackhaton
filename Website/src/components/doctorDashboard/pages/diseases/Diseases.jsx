@@ -1,27 +1,13 @@
-import style from './../patients/patients.module.css'
+import style from './../../table/table.module.css'
 import data from '../../../../data/disease.json'
+import Table from '../../table/Table';
 
 const Diseases = () => {
+  const headerData = ["Name", "ICD", "Description"]
+
   return (
     <div className={style.container}>
-      <table className={style.table}>
-        <thead>
-          <tr className={style.header}>
-            <td className={style.cell }>Name</td>
-            <td className={style.cell}>ICD</td>
-            <td className={style.cell}>Description</td>
-          </tr>
-        </thead>
-        <tbody>
-          {data.map((row, index) => (
-            <tr key={index} className={style.row}>
-              <td className={style.cell}>{row.name}</td>
-              <td className={style.cell}>{row.ICDCode}</td>
-              <td className={style.cell}>{row.description}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <Table headerData={headerData} data={data} />
     </div>
   );
 };

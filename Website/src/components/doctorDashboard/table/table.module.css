@@ -1,6 +1,9 @@
 .container {
     display: flex;
     flex-direction: column;
+    overflow: auto;
+    height: 100%;
+    overflow-x: hidden;
 }
   
 .table {
@@ -19,7 +22,7 @@
 }
   
 .cell {
-    padding: 5px;
+    padding: 15px;
     margin: auto;
     text-align: center
 }
@@ -31,4 +34,22 @@
     margin: auto;
     object-fit: cover;
     background: #fff
+}
+tr td:nth-child(1), tr td:nth-child(2){
+    width: 15%;
+}
+
+thead{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+tbody tr{
+    transition: .5s;
+    cursor: pointer;
+}
+
+tbody tr:hover{
+    scale: 1.02;
 }
