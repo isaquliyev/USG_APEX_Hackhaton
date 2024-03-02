@@ -1,29 +1,20 @@
-import style from './../patients/patients.module.css'
+import style from './../../table/table.module.css'
 import data from '../../../../data/medicine.json'
+import Table from '../../table/Table';
 
 const Medicines = () => {
+  const headerData = ["Name", "NCD code", "Description", "Ingredients" ,"Quantity"] 
+  const formattedData = data.map((medicine) => ({
+    name: medicine.name,
+    ncdCode: medicine.ncdCode,
+    description: medicine.description,
+    ingredients: medicine.ingredients[0].name,
+    quantity: medicine.ingredients[0].quantity
+  }));
+
   return (
     <div className={style.container}>
-      <table className={style.table}>
-        <thead>
-          <tr className={style.header}>
-            <td className={style.cell }>Name</td>
-            <td className={style.cell}>NCD code</td>
-            <td className={style.cell}>Description</td>
-            <td className={style.cell}>Quantity</td>
-          </tr>
-        </thead>
-        <tbody>
-          {data.map((row, index) => (
-            <tr key={index} className={style.row}>
-              <td className={style.cell}>{row.name}</td>
-              <td className={style.cell}>{row.ncdCode}</td>
-              <td className={style.cell}>{row.description}</td>
-              <td className={style.cell}>{row.ingredients[0].quantity}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+      <Table headerData={headerData} data={formattedData} />
     </div>
   );
 };
